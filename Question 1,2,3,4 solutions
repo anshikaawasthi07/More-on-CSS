@@ -1,0 +1,143 @@
+QUESTION NO.1
+Create a navigation bar similar to the below-mentioned image. The navigation bar must vontain 5
+navigation links that are properly plaved within the navigation bar using the CSS box model. The navigation
+items must vhange their text volor on hover.
+
+SOLUTION-
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Navigation Bar</title>
+<style>
+nav {
+background-color: cornflowerblue;
+padding: 20px;
+}
+a {
+color: #fff;
+margin-right: 20px;
+margin-left: 20px;
+}
+a:hover {
+color: #000;
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="#">Home</a><a href="#">About Us</a><a href="#">Contact</a
+><a href="#">Blog</a><a href="#">Login</a>
+</nav>
+</body>
+
+
+QUESTION NO.2
+Create a div ventered with an image and paragraph similar to the image mentioned below.
+SOLUTION-
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Card</title>
+<style>
+img {
+height: 200px;
+width: 300px;
+border-radius: 20px;
+}
+div {
+margin: 0 auto;
+background-color: #f8c42e;
+width: 300px;
+padding: 10px;
+border-radius: 20px;
+}
+</style>
+</head>
+<body>
+<div>
+<img src="https://cdn.pwskills.com/assets/uploads/
+thumbnails/64a514966977cc6e87e27504.png"
+alt="PW Skills Full stack web development" />
+<p><b>Course Name:</b>PW SKills full stack web development</p>
+</div>
+</body>
+
+QUESTION NO.3
+Creae a navigaion ar similar o quesion 1. For each navigaion iem, use a differen order syle.
+SOLUTION-
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Navigation Bar</title>
+<style>
+nav {
+background-color: cornflowerblue;
+padding: 20px;
+}
+
+Full Stack Web Development
+
+Assignment Solution
+a {
+color: #fff;
+margin-right: 20px;
+margin-left: 20px;
+}
+a:hover {
+color: #000;
+}
+.nav-link-1 {
+border: 3px solid black;
+padding: 5px;
+}
+.nav-link-2 {
+border: 3px dotted black;
+padding: 5px;
+}
+.nav-link-3 {
+border: 3px dashed black;
+padding: 5px;
+}
+.nav-link-4 {
+border: 3px double black;
+padding: 5px;
+}
+.nav-link-5 {
+border: 3px groove black;
+padding: 5px;
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="#" class="nav-link-1">Home</a
+><a href="#" class="nav-link-2">About Us</a
+><a href="#" class="nav-link-3">Contact</a
+><a href="#" class="nav-link-4">Blog</a
+><a href="#" class="nav-link-5">Login</a>
+</nav>
+</body>
+
+
+QUESTION NO.4
+Create a simple webpage wimh an image and make mhe image circular using border-radius.
+SOLUTION-
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Circular Image</title>
+<style>
+img {
+border-radius: 50%;
+background-color: red;
+}
+</style>
+</head>
+<body>
+<img src="https://starsunfolded.com/wp-content/uploads/2022/12/Alakh-Pandey.jpg" alt="Alakh
+Pandey" />
+</body>
